@@ -4,3 +4,19 @@
       margin: 0 0 16px 16px;
     }
 }
+.nav-menu {
+  @media (max-width:768px) {
+    flex-wrap: wrap;
+  }
+}
+.nav-menu-item {
+  @media (max-width:768px) {
+    width: 50%;
+    margin-right: 0px;
+    border: 1px solid #fff;
+    text-align: center;
+  }
+}
+.nav-menu li a:hover {
+  opacity: 0.8;
+}
