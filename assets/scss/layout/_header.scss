@@ -1,4 +1,6 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.logo{
+  width: 80px;
+  @media (max-width:768px) {
+      margin: 0 0 16px 16px;
+    }
 }
