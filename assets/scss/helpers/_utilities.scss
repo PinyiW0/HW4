@@ -208,6 +208,7 @@ $utilities: map-merge(
     ),
     "max-width": (
       property: max-width,
+      responsive: true,
       class: mw,
       values: (100: 100%)
     ),

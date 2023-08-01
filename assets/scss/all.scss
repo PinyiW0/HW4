@@ -1,16 +1,16 @@
-// Reset
+// Reset和base 配置
 @import "./base/reset";
 
 //@import '../node_modules/bootstrap/scss/bootstrap';
 
 @import "../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
+@import "../scss/helpers/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/utilities";
+@import "../scss/helpers/utilities";
 
-// Layout & components
+// Layout & components 佈局與元件
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
@@ -49,8 +49,11 @@
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-// Pages
-@import './layout/header.scss';
-@import './layout/footer.scss';
-@import './pages/index.scss';
-@import './pages/faq.scss';
+// 自定義 layout
+@import './layout/header';
+@import './layout/footer';
+
+// 自定義 Pages
+@import './pages/index';
+@import './pages/faq';
+@import './pages/location-map';
