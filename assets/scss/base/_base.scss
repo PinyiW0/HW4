@@ -1,0 +1,19 @@
+
+// 自設定
+*,*::before,*::after{
+     box-sizing: border-box;   
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
